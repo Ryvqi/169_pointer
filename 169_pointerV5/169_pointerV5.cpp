@@ -24,5 +24,10 @@ void manusia::showNIlaiPelajar(pelajar& x) {
 
 int main()
 {
-
+	manusia m;
+	pelajar p;
+	m.showNIlaiPelajar(p);
+	cout << endl;
+	system("\npause");
+	return 0;
 }
